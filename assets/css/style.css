@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
 
-body {
+body,html {
     font-family: 'Noto Sans JP', sans-serif;
     background-image: linear-gradient(#f0ede5, 	 #000000);
     color: #ffffff;
     scroll-behavior: smooth;
   }
   
-  p {
+  .text-para {
     font-family: 'Kaushan Script', cursive;
   }
   
@@ -35,7 +35,7 @@ body {
     padding-left: 0;
   }
   .log-button-nav {
-    background-color: rgb(175, 148, 131);
+    background-color: #3f3d3d;
     color: #fafafa;
     transition: all 0.3s;
     width: 70px;
@@ -47,12 +47,10 @@ body {
     transform: scale(1.2);
   }
   
-  /*--MAIN BODY--*/
+  /*--Welcome part--*/
   
-  /*----Welcome part--*/
-  
-  .welcome-section {
-    background: url('../images/bg-Bridge.jpg') no-repeat center fixed;
+  .welcome-part {
+    background: url("../images/bg-Bridge.jpg") no-repeat center fixed;
     background-size: cover;
     height: 100vh;
   }
@@ -76,7 +74,6 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    /*background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6));*/
   }
   header input {
     width: 100%;
@@ -149,4 +146,35 @@ body {
     font-size: 24px;
     font-weight: 500;
     text-shadow: 0px 4px rgba(0, 0, 0, 0.4);
+  }
+  /*--Footer--*/
+  
+  footer {
+    background-color: #3f3d3d;
+  }
+  
+  footer h4 {
+    color: #fafafa;
+    letter-spacing: 2px;
+  }
+  
+  .social-links {
+    margin-top: 20px;
+  }
+  
+  .social-links li a i {
+    width: 40px;
+    height: 40px;
+    padding-top: 10px;
+    border-radius: 50%;
+    font-size: 20px;
+    text-align: center;
+    line-height: 17px;
+    color: #FEFEFE;
+    background-color: #0a0007;
+    transition: all 0.35s ease-in-out;
+  }
+  
+  .social-links li a i:hover {
+    background-color: #DF8E00;
   }
