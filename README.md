@@ -23,8 +23,9 @@ ___
         * Libraries & Framework
         * Tools
     5. Testing
-    6. Deployment
-    7. bugs
+    6. bugs
+    7. Deployment
+    
 
 # UX (User Experience)
 ___
@@ -91,4 +92,22 @@ ___
   * __Hover.css__ was used on the Social Media icons in the footer to add the float transition while being __hovered__ over. 
 6. [Google Font:](https://fonts.google.com/)  
   * __Google fonts__ were used to import the 'Noto+Sans+JP' font into the style.css file which is used in the project. 
-  
+
+## Testing
+___
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure that there were no syntax errors in the project.
+
+* [W3C Markup Validator](https://validator.w3.org/)
+* [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+
+## Testing User Stories from User Experience (UX) Section
+
+### Visitors Goals:
+  * As a user for this site I make sure to see that the search box is  as clean and easily used,and working perfectly. Under the search section there is a name for the city followed by the and the month.
+  * The userb also has got an option of typing in the search bar for knowing the weather forecast of the day and also easily to navigate throughout the site by going down to the footer section.
+### Returning Visitor Goals:
+  * As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
+  * As a Returning Visitor, I want to find different kind of social media links so that I can join and interact with others in the community.
+### Frequent User Goals:
+  * As a Frequent User, I want to sign up to the various social links  so that I am emailed any major updates and/or changes to the website or organisation.  
+  * At the bottom of every page their is a footer which content is consistent is at the bottom of the pages. 
