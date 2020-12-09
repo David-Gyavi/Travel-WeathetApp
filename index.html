@@ -10,23 +10,24 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Josefin+Sans:wght@423&family=Raleway&display=swap">
-  <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+  <link rel="stylesheet" href="assets/css/style.css" />
   <title>Weather App</title>
   </head>
    <body>
     <div class="app-wrap">
     <header>
-      <input type="text" autocomplete="off" class="search-box" placeholder="Search for a city..." />
+      <input type="search" autocomplete="off" placeholder="Search for a city..."/>
     </header>
     <main>
       <section class="location">
-      <h2 class="text-dark">The Holland Weather App</h2>
-        <div class="city">Arnhem, NL</div>
+      <h2>The Holland Weather App</h2>
+        <div class="city" id="city"></div>
         <div class="date">Thursday 10 November 2020</div>
       </section>
       <div class="current">
-        <div class="temp">15<span>°c</span></div>
-        <div class="weather">Sunny</div>
+        <div class="temp" id="temp"><span>°c</span></div>
+
+        <div class="weather" id="weather"></div>
         <div class="hi-low">13°c / 16°c</div>
       </div>
     </main>
@@ -94,5 +95,6 @@
     <script src="https://kit.fontawesome.com/5fa1d9dfaf.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="./js/main.js"></script>
    </body>
   </html>

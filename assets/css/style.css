@@ -1,80 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
 
-body,html {
-    font-family: 'Noto Sans JP', sans-serif;
-    background-image: url('../assets/images/bg-Bridge.jpg');
-    color: #ffffff;
-    scroll-behavior: smooth;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
   }
   
-  .text-para {
-    font-family: 'Kaushan Script', cursive;
-  }
-  
-  .container-fluid {
-    padding: 15px;
-    overflow: hidden;
-  }
-  /*--NavBar--*/
-  
-  .bg-color-navbar {
-    background-color: #000000;
-  }
-  
-  .nav-text-color {
-    color: #fafafa;
-  }
-  
-  .navbar-toggler {
-    color: #0a0007;
-  }
-  
-  .navbar-nav .nav-link {
-    margin-left: 20px;
-    padding-right: 0;
-    padding-left: 0;
-  }
-  .log-button-nav {
-    background-color: #3f3d3d;
-    color: #fafafa;
-    transition: all 0.3s;
-    width: 70px;
-  }
-  
-  .log-button-nav:hover {
-    background-color:  #DF8E00;
-    color: #fafafa;
-    transform: scale(1.2);
-  }
-  
-  /*--Welcome part--*/
-  
-  .welcome-part {
-    background: url("../images/bg-Bridge.jpg") no-repeat center fixed;
+  body { 
+    font-family: 'montserrat', sans-serif;  
+    background-image: url('../images/veer_dam.jpeg');
     background-size: cover;
-    height: 100vh;
+    background-position: top center;
   }
   
-  .header-text {
-    color: #f0ede5;
-    margin-top: 15vh;
-    font-weight: 300;
-    text-shadow: 2px 10px rgba(0, 0, 0, 0.6);
-  }
-  
-  .text-para {
-    font-family: "Caveat", cursive;
-    color: #f0ede5;
-    font-size: 1.7rem;
-    margin: 0 auto;
-    padding: 0 auto;
-  }
-
   .app-wrap {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6));
   }
+  
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 15px 15px;
+  }
+  
   header input {
     width: 100%;
     max-width: 280px;
@@ -83,22 +35,18 @@ body,html {
     outline: none;
     background-color: rgba(255, 255, 255, 0.3);
     border-radius: 16px 0px 16px 0px;
-    border-bottom: 3px solid #DF8E00;
+    border-bottom: 3px solid #B67102;
     
     color: #313131;
     font-size: 20px;
     font-weight: 300;
     transition: 0.2s ease-out;
   }
-  header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 50px 17px 17px;
-  }
+  
   header input:focus {
     background-color: rgba(255, 255, 255, 0.6);
   }
+  
   main {
     flex: 1 1 100%;
     padding: 25px 25px 50px;
@@ -107,24 +55,29 @@ body,html {
     align-items: center;
     text-align: center;
   }
-  
+  h2 {
+     color: #FFFFFF;
+     margin-bottom: 5px; 
+     font-size: 40px;
+  }
   .location .city {
-    color: #FFF;
+    color: #FFFFFF;
     font-size: 32px;
     font-weight: 500;
     margin-bottom: 5px;
   }
   
   .location .date {
-    color: #FFF;
+    color: #FFFFFF;
     font-size: 16px;
   }
   
   .current .temp {
-    color: #FFF;
+    color: #FFFFFF;
     font-size: 102px;
     font-weight: 900;
     margin: 30px 0px;
+    cursor: pointer;
     text-shadow: 2px 10px rgba(0, 0, 0, 0.6);
   }
   
@@ -133,7 +86,7 @@ body,html {
   }
   
   .current .weather {
-    color: #FFF;
+    color: #FFFFFF;
     font-size: 32px;
     font-weight: 700;
     font-style: italic;
@@ -142,19 +95,22 @@ body,html {
   }
   
   .current .hi-low {
-    color: #FFF;
+    color: #FFFFFF;
     font-size: 24px;
     font-weight: 500;
     text-shadow: 0px 4px rgba(0, 0, 0, 0.4);
   }
-  /*--Footer--*/
-  
+
+  /* footer */
+
   footer {
-    background-color: #3f3d3d;
+    background-color: #474747;
   }
-  
-  footer h4 {
-    color: #fafafa;
+  .footer-text {
+      color: #FFFFFF;
+  }
+  footer h5 {
+    color: #FFFFFF;
     letter-spacing: 2px;
   }
   
@@ -170,11 +126,11 @@ body,html {
     font-size: 20px;
     text-align: center;
     line-height: 17px;
-    color: #FEFEFE;
+    color: #FFFFFF;
     background-color: #0a0007;
     transition: all 0.35s ease-in-out;
   }
   
   .social-links li a i:hover {
-    background-color: #DF8E00;
+    background-color: #B67102;
   }

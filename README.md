@@ -75,9 +75,9 @@ ___
 ___
 
 ### Languages Used
-* HTML5
-* CSS3
-* JAVA SCRIPT
+* [HTML5](https://en.wikipedia.org/wiki/HTML5)
+* [CSS3](https://en.wikipedia.org/wiki/CSS)
+* [JavaSCRIPT](https://en.wikipedia.org/wiki/JavaScript)
 
 ## Libraries & Frameworks 
 1. [Bootstrap 4.5.0:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
@@ -111,3 +111,18 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 ### Frequent User Goals:
   * As a Frequent User, I want to sign up to the various social links  so that I am emailed any major updates and/or changes to the website or organisation.  
   * At the bottom of every page their is a footer which content is consistent is at the bottom of the pages. 
+
+## Bugs
+
+
+# Deployment
+
+## GitHub Pages
+The project was deployed to GitHub Pages using the following steps.
+ 
+  1. Log in to __GitHub__ and locate the [GitHub Repository](https://github.com/)
+  2. At the top of the **Repository** locate the "Settings" Button on the menu.
+  3. Scroll down the Settings page until you locate the __"GitHub Pages"__ Section.
+  4. Under "Source", click the dropdown called "None" and select __"Master Branch"__.
+  5. The page will automatically refresh the gitHub.
+  6
