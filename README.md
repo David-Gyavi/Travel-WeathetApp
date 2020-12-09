@@ -160,7 +160,7 @@ ___
 * All the Images I used I got them from Google and they where for free.
 
 ### Acknowledgements
-* My Mentor for continous helpful feedback.
+* My Code Institute Mentor [Simen Daehlin](https://github.com/Eventyret) for continous helpful feedback.
 
 
 
