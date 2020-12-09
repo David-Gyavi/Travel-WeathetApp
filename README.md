@@ -72,6 +72,14 @@ ___
 * Responsive on all device sizes
 * Interactive elements
 
+## Wireframes:
+For my wireframing i used apen Prototyping. I found this was really easy for me to use. And it helped me to play around with  whatever i wanted and to see how it is on different screen sizes.
+To be more clear of what i did, here are explanations about my wireframes.
+
+* __Desktop__ Wireframe.[here](../wireframes/desktop.png)
+* __Tablet__ Wireframe.[here](wireframes/tablet.png)
+* __Mobile__ Wireframe.[here](wireframes/mobile.png)
+
 ## Technologies Used
 ___
 
@@ -94,7 +102,7 @@ ___
 6. [Google Font:](https://fonts.google.com/)  
   * __Google fonts__ were used to import the 'Noto+Sans+JP' font into the style.css file which is used in the project. 
 
-## Testing
+## Testing:
 ___
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure that there were no syntax errors in the project.
 
@@ -113,7 +121,10 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
   * As a Frequent User, I want to sign up to the various social links  so that I am emailed any major updates and/or changes to the website or organisation.  
   * At the bottom of every page their is a footer which content is consistent is at the bottom of the pages. 
 
-## Bugs
+## Bugs:
+___
+I came across alot of bugs in trying to make the uri to work , mostly i was getting undefined 404 so then i had to consult from the stackOverflow
+where i got most of my help and also following the videos from code institute. 
 
 
 # Deployment
@@ -124,6 +135,32 @@ The project was deployed to GitHub Pages using the following steps.
   1. Log in to __GitHub__ and locate the [GitHub Repository](https://github.com/)
   2. At the top of the **Repository** locate the "Settings" Button on the menu.
   3. Scroll down the Settings page until you locate the __"GitHub Pages"__ Section.
-  4. Under "Source", click the dropdown called "None" and select __"Master Branch"__.
+  4. Under "**Source**", click the dropdown called "None" and select __"Master Branch"__.
   5. The page will automatically refresh the gitHub.
-  6
+  6. __Click__ to confirm my selection.
+  7. __Travel-WeathetApp__ is now live on GitHub Pages.
+
+### Making a Local Clone
+
+* Click the green Clone or Download button.
+* Copy the url in the dropdown box
+* Using IDE of your choice open up your prefered terminal or GitHub desktop.
+* You can Navigate to your desired file location.
+* Copy the following code and put it into your terminal to clone the site. https://david-gyavi.github.io/Travel-WeathetApp
+
+    
+
+Git clone https://david-gyavi.github.io/Travel-WeathetApp/
+
+## Credits:
+___
+### code
+* [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): I used the bootstrap Library in this project to design up the footer section.
+### Pictures
+* All the Images I used I got them from Google and they where for free.
+
+### Acknowledgements
+* My Mentor for continous helpful feedback.
+
+
+
