@@ -1,7 +1,8 @@
 # Weather App
 
 ___
-<p>The reason of making this site is that to help people to travel in the four cities of Hollland, and these are Arnhem, Amsterdam, Rotterdam and Utrecht. And this will  mostly to help the travelers by knowing the weather-forecast of the day to the places they will be going for visit before they move out for thier trips.</p>
+![Markdown Logo](assets/images/different-devices.png)
+<p>The reason of making this site is that to help people to travel in different places of Hollland, and this will help the travelers to know the temperature of any place of there choice they would like to go without not knowing the weather forecast.</p>
 
 ### Content
 
@@ -34,8 +35,8 @@ ___
 ### 1. Visitors Goals
 
 * The main goal in here is to let the users to  understand the main purpose of the site and learning more about the project.
-* As the user I want to be able to navigate the site and to alocate all their **social media**, __links__ and  __lables__ either they really function good or not.
-* As the visitor I would like to see how really the app works if there are any extras added to make it unique.
+* As the user I want to be able to navigate the site and to alocate all their **social media**, __links__ and  __inputs__ either they work really good or not.
+* As the visitor I would like to see how really the app works if there are any extras added to make it unique like temperatures.
 
 ### Returning Visitor Goals:
 
@@ -64,7 +65,7 @@ These are the main colours that am gonna use in this weather project.
 * For the font Icons the background-color: Black  #000000;
 * For the footer background-color I used: Davys Gray #474747;
 
-![Markdown Logo](images/color-mixture.png)
+![Markdown Logo](assets/images/color-mixture.png)
 
 ## Features
 ___
