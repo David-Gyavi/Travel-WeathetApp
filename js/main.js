@@ -1,5 +1,23 @@
 
-
+const searchCity = () => {
+    let cityName = document.querySelector('input[type="search"]');
+    cityName.addEventListener('search', function(){
+        let uri = `https://api.openweathermap.org/data/2.5/weather?q=${cityName.value}&units=metric&appid=b6da07b586c74f894574df86a71eb5f5`
+        fetch(uri, { mode: "cors"})
+            .then(res => {
+                !res.ok ? res.statusText : Error(res.status)
+                return res.json();
+            })
+            .then(data => { data
+                let city = document.getElementById("city").innerText = data.name;
+                let temp = document.getElementById("temp").innerText = data.main.temp;
+                let weather = document.getElementById("weather").innerText = data.weather[0].main; 
+                return data;
+            })
+            .catch(error => error)
+    })
+};
+searchCity();
 
 function displayResults(weather) {
     let city = document.querySelector('.location .city');
