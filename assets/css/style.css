@@ -113,6 +113,9 @@
     color: #FFFFFF;
     letter-spacing: 2px;
   }
+  .footer-header {
+     margin-top: 20px;
+  }
   
   .social-links {
     margin-top: 20px;
