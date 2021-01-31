@@ -1,5 +1,5 @@
 let api = {
-    key: "b6da07b586c74f894574df86a71eb5f5",
+    key: "27dc3b4acc3946dc8a4b48ba00aab1a8",
     base: "https://api.openweathermap.org/data/2.5/"
 }
 
