@@ -1,5 +1,5 @@
 let api = {
-    key: "27dc3b4acc3946dc8a4b48ba00aab1a8",
+    key: "b6da07b586c74f894574df86a71eb5f5",
     base: "https://api.openweathermap.org/data/2.5/"
 }
 
@@ -15,7 +15,7 @@ function setQuery(evt) {
 function getResults (query) {
     fetch(`${api.base}weather?q=${query}&units=metric&APPID=${api.key}`)
        .then(weather => {
-           return weatheer.json();
+           return weather.json();
        }).then(displayResults);
 }
 
