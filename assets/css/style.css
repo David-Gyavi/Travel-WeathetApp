@@ -107,6 +107,8 @@ main {
 /*--Form--*/
 
 .form {
+    position: relative;
+    left: 10%;
     background: grey;
     padding: 30px;
     border-radius: 10px;
@@ -115,7 +117,6 @@ main {
     margin-top: 15px;
     max-width: 550px;
     max-width: 550px;
-    transform: translate-(50%,-50%);
     max-width: 550px;
     width: 100%;
     box-shadow: 4px 4px 2px rgb(236, 198, 140); 
@@ -161,8 +162,6 @@ form .btn input[type='submit']{
     font-size: 13px;
     transition: all 0.6s ease-out;
 }
-
-
 
   /* footer */
 
