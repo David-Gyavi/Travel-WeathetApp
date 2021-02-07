@@ -144,31 +144,22 @@ form textarea {
     margin-bottom: 15px;
     box-sizing: border-box;
 }
-.form .input_field {
-    margin-bottom: 10px;
+.form-control {
+    background-color: #e5e9aa;
 }
-.form .input_field input[type=text],
-.form textarea {
-    width: 100%;
-    border: 2px solid #3e3e79;
-    padding: 10px;
+
+form button {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 8px 35px;
+    font-size: 12px;
+    text-align: center;
+    color: white;
 }
-.form textarea {
-    height: 80px;
-    resize: none;
-}
-form .btn input[type='submit']{
-    border: 0;
-    margin-top: 15px;
-    padding: 10px;
-    width: 100%;
-    background-color: #B67102;
-    color: #FFFFFF;
-    text-transform: capitalize;
-    letter-spacing: 3px;
-    font-weight: 400;
-    border-radius: 25px;
-    cursor: pointer;
+.contact-heading {
+    font-family: 'Lobster', cursive;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
 }
 .form #error_message {
     margin-bottom: 19px;
