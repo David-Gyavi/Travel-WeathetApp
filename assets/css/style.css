@@ -123,20 +123,15 @@ main {
 
 /*--Form--*/
 
-.form {
-    position: relative;
-    left: 10%;
-    background: grey;
-    padding: 30px;
-    border-radius: 10px;
-    margin-bottom: 30px;
-    padding: 25px;
-    margin-top: 15px;
-    max-width: 550px;
-    max-width: 550px;
-    max-width: 550px;
-    width: 100%;
-    box-shadow: 4px 4px 2px rgb(236, 198, 140); 
+form {
+    width: 500px;
+    background: #81939c;
+    padding: 20px 25px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 2px rgb(71, 69, 66);
 }
 .form h2 {
     text-align: center;
