@@ -42,7 +42,14 @@ boots<!DOCTYPE html>
     </div>
     <div class="center-form row">
         <div id="error_message"></div>
-        
+         <form id="myform" onsubmit="return validate();">
+            <input type="text" class="form-control" id="fullname" placeholder="Name">
+            <input type="text" class="form-control" id="subject" placeholder="Subject">
+            <input type="text" class="form-control" id="phone" placeholder="Phone">
+            <input type="text" class="form-control" id="email" placeholder="Email">
+            <textarea rows="5" class="form-control" id="message" placeholder="Message"></textarea>
+            <button type="submit" class="btn btn-secondary">Submit</button>
+        </form>
     </div>
 </div>
   <!--Footer-->
