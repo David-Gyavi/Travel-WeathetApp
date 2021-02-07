@@ -105,16 +105,18 @@ main {
     text-shadow: 0px 4px rgba(0, 0, 0, 0.4);
 }
 /*--Button--*/
-    .btn-secondary {
+.btn-secondary {
     border-radius: 0;
     text-transform: uppercase;
     font-size: 1rem;
     border-width: medium;
-}
-.btn-secondary {
     background-color:#e49d2c;
     color: #FEFEFE;  
     border: 0; 
+}
+.btn-secondary a {
+    text-decoration: none;
+    color: #FEFEFE;
 }
 .btn-secondaryt:hover,
 .btn-secondary:focus{
@@ -199,14 +201,14 @@ footer {
     background-color: #474747;
 }
 .footer-text {
-      color: #FFFFFF;
+    color: #FFFFFF;
 }
 footer h5 {
     color: #FFFFFF;
     letter-spacing: 2px;
 }
 .footer-header {
-     margin-top: 20px;
+    margin-top: 20px;
 }
   
 .social-links {
