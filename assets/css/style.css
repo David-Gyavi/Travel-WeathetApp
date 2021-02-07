@@ -12,6 +12,7 @@ body {
     background-image: url('../images/veer_dam.jpeg');
     background-size: cover;
     background-position: top center;
+    scroll-behavior: smooth;
 }
   
 .app-wrap {
@@ -109,7 +110,7 @@ main {
     border-radius: 0;
     text-transform: uppercase;
     font-size: 1rem;
-    border-width: medium;
+s    border-width: medium;
     background-color:#e49d2c;
     color: #FEFEFE;  
     border: 0; 
