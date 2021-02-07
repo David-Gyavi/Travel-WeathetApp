@@ -123,6 +123,10 @@ main {
 
 /*--Form--*/
 
+.form-heading h4 {
+    font-family: 'Barlow', sans-serif;
+    color: #FCFDFE;
+}
 form {
     width: 500px;
     background: #81939c;
@@ -164,9 +168,10 @@ form button {
 .center-form {
     padding-top: 10px;
     margin: 0 auto;
-    max-width: 100%;
+    max-width: 70%;
 }
-.form #error_message {
+.center-form #error_message {
+    width: 100%;
     margin-bottom: 19px;
     padding: 0;
     background-color: #B67102;
