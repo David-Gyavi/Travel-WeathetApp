@@ -174,6 +174,19 @@ form button {
     font-size: 13px;
     transition: all 0.6s ease-out;
 }
+button[type="submit"] {
+    border: 0;
+    margin-top: 15px;
+    padding: 10px;
+    width: 100%;
+    background-color: #e49d2c;
+    color: #f5f1f0;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+}
 
   /* footer */
 
