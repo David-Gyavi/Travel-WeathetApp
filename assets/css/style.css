@@ -7,6 +7,7 @@
 }
   
 body { 
+    overflow-x: hidden;
     font-family: 'Merriweather', serif;
     background-image: url('../images/veer_dam.jpeg');
     background-size: cover;
