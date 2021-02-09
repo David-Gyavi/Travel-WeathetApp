@@ -1,7 +1,7 @@
 # Weather App
 
 ___
-![Markdown Logo](assets/images/different-devices.png)
+![Markdown Logo](assets/images/different_devices.png)
 <p>The reason of making this site is that to help people to travel in different places of Hollland, and this will help the travelers to know the temperature of any place of there choice they would like to go without not knowing the weather forecast.</p>
 
 ### Content
