@@ -76,9 +76,9 @@ ___
 For my wireframing i used apen Prototyping. I found this was really easy for me to use. And it helped me to play around with  whatever i wanted and to see how it is on different screen sizes.
 To be more clear of what i did, here are explanations about my wireframes.
 
-* __Desktop__ Wireframe.[here](https://github.com/David-Gyavi/Travel-WeathetApp/blob/master/wireframes/Desk_top.png)
-* __Tablet__ Wireframe.[here](https://github.com/David-Gyavi/Travel-WeathetApp/blob/master/wireframes/Tablet.png)
-* __Mobile__ Wireframe.[here](https://github.com/David-Gyavi/Travel-WeathetApp/blob/master/wireframes/phone.png)
+* You can find the **Wireframe**.[here](https://github.com/David-Gyavi/Travel-WeathetApp/blob/master/wireframes/Desk_top.png)
+* You can find the **Tablet**Wireframe.[here](https://github.com/David-Gyavi/Travel-WeathetApp/blob/master/wireframes/Tablet.png)
+* You can find the **Mobile** Wireframe.[here](https://github.com/David-Gyavi/Travel-WeathetApp/blob/master/wireframes/phone.png)
 
 ## Technologies Used
 ___
