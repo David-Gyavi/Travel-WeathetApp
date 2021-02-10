@@ -51,7 +51,7 @@ ___
 I used Font Awesome Icons in this project and are basically provided on this link [Font Awesome](https://fontawesome.com) and are **easly applied** to your website, used in __moderation__ and are self explanatory as you will be seeing.
 
 ### Fonts:
-For this project I'm going to use Sans Serif and JP [Noto](https://fonts.google.com/specimen/Noto+Sans+JP) however I found this would be a great much the project .
+For this project I'm going to use Sans Serif and JP [Merriweather](https://fonts.google.com/specimen/Merriweather) however I found this would be a great much the project .
 
 ### Colors:
 1. I have sofar picked up four types of colors, and in my understanding they will make the weather app project look quiet pretty and in appearance looks promising.
