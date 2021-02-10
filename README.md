@@ -115,16 +115,20 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
   * As a user for this site I make sure to see that the search box is  as clean and easily used,and working perfectly. Under the search section there is a name for the city followed by the and the month.
   * The userb also has got an option of typing in the search bar for knowing the weather forecast of the day and also easily to navigate throughout the site by going down to the footer section.
 ### Returning Users Goals:
-  * As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
-  * As a Returning Visitor, I want to find different kind of social media links so that I can join and interact with others in the community.
+  * As a Returning User, I want to find the best way to get in contact with the organisation with any questions I may have.
+  * As a Returning User, I want to find different kind of social media links so that I can join and interact with others in the community.
 ### Frequent User Goals:
   * As a Frequent User, I want to sign up to the various social links  so that I am emailed any major updates and/or changes to the website or organisation.  
   * At the bottom of every page their is a footer which content is consistent is at the bottom of the pages. 
 
 ## Bugs:
 ___
-I came across alot of bugs in trying to make the uri to work , mostly i was getting undefined 404 so then i had to consult from the stackOverflow
-where i got most of my help and also following the videos from code institute. 
+I had alot of bugs in the search box where when ever i could search for the place or a country yes it could run good but it could not display the time, date, month and the year.
+Another bug was the temperature could not round off to math giving out the results with a decimal point.
+I came across this bug by making some changes in my JavaSCRIPT code. Where by the conditon on line 10 had made it true in other i had coded it wrongly making it evt.key by not calling evt.keyCode to make it true to run.
+and later to put it in console.log. So it could run good.
+I came across alot of bugs in trying to make the uri to work , mostly I was getting undefined 404  and addEventListener not declared so then I had to consult my mentor.
+where I got most of my help and also following the videos from code institute. 
 
 
 # Deployment
