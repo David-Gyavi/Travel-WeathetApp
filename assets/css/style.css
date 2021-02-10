@@ -110,7 +110,7 @@ main {
     border-radius: 0;
     text-transform: uppercase;
     font-size: 1rem;
-    background-color:#e49d2c;
+    background-color:#B67102;
     color: #FEFEFE;  
     border: 0; 
 }
@@ -186,7 +186,7 @@ button[type="submit"] {
     margin-top: 15px;
     padding: 10px;
     width: 100%;
-    background-color: #e49d2c;
+    background-color: #B67102;
     color: #f5f1f0;
     text-transform: uppercase;
     letter-spacing: 3px;
