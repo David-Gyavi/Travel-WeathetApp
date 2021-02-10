@@ -10,7 +10,7 @@ ___
 
 * UX
     1. User Stories
-        1. Visitors Goals
+        1. Users Goals
         2. Returning Visitor Goals
         3. Frequent User Goals 
     2. Design Choices   
@@ -32,13 +32,13 @@ ___
 ___
 
 ## User Stories:
-### 1. Visitors Goals
+### 1. Users Goals
 
 * The main goal in here is to let the users to  understand the main purpose of the site and learning more about the project.
 * As the user I want to be able to navigate the site and to alocate all their **social media**, __links__ and  __inputs__ either they work really good or not.
-* As the visitor I would like to see how really the app works if there are any extras added to make it unique like temperatures.
+* As the user I would like to see how really the app works if there are any extras added to make it unique like temperatures.
 
-### Returning Visitor Goals:
+### Returning Users Goals:
 
 * As a user I keep on checking to see if the weather app has got more functions to make it easier for anyone using it.
 ### Frequent User Goals
@@ -111,10 +111,10 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ## Testing User Stories from User Experience (UX) Section
 
-### Visitors Goals:
+### Users Goals:
   * As a user for this site I make sure to see that the search box is  as clean and easily used,and working perfectly. Under the search section there is a name for the city followed by the and the month.
   * The userb also has got an option of typing in the search bar for knowing the weather forecast of the day and also easily to navigate throughout the site by going down to the footer section.
-### Returning Visitor Goals:
+### Returning Users Goals:
   * As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
   * As a Returning Visitor, I want to find different kind of social media links so that I can join and interact with others in the community.
 ### Frequent User Goals:
