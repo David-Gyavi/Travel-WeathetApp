@@ -126,10 +126,7 @@ main {
 
 /*--Form--*/
 
-.form-heading h4 {
-    font-family: 'Barlow', sans-serif;
-    color: #FCFDFE;
-}
+
 form {
     width: 500px;
     background: #81939c;
