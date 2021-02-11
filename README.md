@@ -2,7 +2,9 @@
 
 ___
 ![Markdown Logo](assets/images/different_devices.png)
-<p>The reason of making this site is that to help people to travel in different places of Hollland, and this will help the travelers to know the temperature of any place of there choice they would like to go without not knowing the weather forecast.</p>
+<p>The reason of making this site is that to help people to travel in different places of when ever in the world, and this will help the travelers to know the temperature of any place of there choice they would like to go without not knowing the weather forecast.
+This Weather App is also designed with the form on it in case of any question concerning the App, a user could easly fill in the form ane send his query to the developer, which could help as to improve in our work we do.
+</p>
 
 ### Content
 
