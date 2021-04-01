@@ -76,12 +76,12 @@ if(isNaN(phone) || phone.length != 10){
     error_message.innerHTML = text;
     return false;
   }
-  if(email.indexOf("@") == -1 || email.length < 6){
+if(email.indexOf("@") == -1 || email.length < 6){
     text = "Please Enter valid Email";
     error_message.innerHTML = text;
     return false;
   }
-  if(message.length <= 140){
+if(message.length <= 140){
     text = "Please Enter More Than 140 Characters";
     error_message.innerHTML = text;
     return false;

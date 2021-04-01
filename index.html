@@ -1,53 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta name="Description" content="Enter your description here">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-  <link rel="stylesheet" href="assets/css/style.css" />
-  <link rel="shortcut icon" type="image/png" href="assets/images/weather-icon.png">
-  <title>Weather App</title>
-  </head>
-   <body>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here">
+    <meta name="theme-color" content="rgba(255, 255, 255, 0.3)"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="shortcut icon" type="image/png" href="assets/images/weather-icon.png">
+    <link rel="apple-touch-icon" href="assets/images/weather-icon.png">
+    <title>Weather App</title>
+</head>
+
+<body>
     <div class="app-wrap">
-    <div class="col-12 text-center mt-4">
-      <h1 class="heading animate__animated animate__fadeInTopLeft">Worldwide Weather App</h1>
-    </div>
-    <header>
-      <input type="text" class="search-box" autocomplete="off" placeholder="Search for a city..."/>
-    </header>
-    <main>
-      <section class="location">
-          <a href="#contact">
-          <button class="btn btn-secondary">Contact Us</button>
-          </a>
         <div class="col-12 text-center mt-4">
-          <h2 class="heading">Weather</h2>
+            <h1 class="heading animate__animated animate__fadeInTopLeft">Worldwide Weather App</h1>
         </div>
-        <div class="city">Russia, RU</div>
-        <div class="date">Thursday 10 Febuary 2021</div>
-      </section>
-      <div class="current">
-        <div class="temp">17<span>°c</span></div>
-        <div class="weather">Normal</div>
-        <div class="hi-low">15°c / 17°c</div>
-      </div>
-    </main>
-  </div>
+        <header>
+            <input type="text" class="search-box" autocomplete="off" placeholder="Search for a city..." />
+        </header>
+        <main>
+            <section class="location">
+                <a href="#contact">
+                    <button class="btn btn-secondary">Contact Us</button>
+                </a>
+                <div class="col-12 text-center mt-4">
+                    <h2 class="heading">Weather</h2>
+                </div>
+                <div class="city">Russia, RU</div>
+                <div class="date">Thursday 10 Febuary 2021</div>
+            </section>
+            <div class="current">
+                <div class="temp">17<span>°c</span></div>
+                <div class="weather">Normal</div>
+                <div class="hi-low">15°c / 17°c</div>
+            </div>
+        </main>
+    </div>
 
 <!--Form-->
 <div class="bg-color-contact">
     <div class="col-md-12 form-heading">
         <h2 class="heading text-center" id="contact">Fill this form for any query</h2>
     </div>
-    <div class="center-form row">
-        <div id="error_message"></div>
-         <form id="myform" onsubmit="return validate();">
+    <div class="row center-form justify-content-center">
+        <form id="myform" onsubmit="return validate();">
+            <div id="error_message"></div>
             <input type="text" class="form-control" id="name" placeholder="Name">
             <input type="text" class="form-control" id="subject" placeholder="Subject">
             <input type="text" class="form-control" id="phone" placeholder="Phone">
@@ -58,68 +62,71 @@
     </div>
 </div>
   <!--Footer-->
-  <footer class="container-fluid">
-		<div class="row">
-			<div class="col-md-4">
-				<h5 class="footer-header">About</h5>
-				<p class="inline-block footer-text">This Worldwide Weather App which is mainly created to help people who travel from one place to another not only  in the Nederlands but also in the other part of the world, like to visit some different part of he world. Wonserful cities offerings chances to explore as bonus to other part of the World. Our team is
-					passionate about all aspects of visitors comming in and out of the country.</p>
-			</div>
-				<div class="col-sm-4">
-          <h5 class="footer-header">Social Media</h5>
-          <ul class="list-inline social-links">
-            <li class="list-inline-item">
-              <a target="_blank" href="https://www.facebook.com">
-                <i class="fab fa-facebook fa-2x" aria-hidden="true"></i>
-                <span class="sr-only">Facebook</span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a target="_blank" href="https://www.twitter.com">
-                <i class="fab fa-twitter fa-2x" aria-hidden="true"></i>
-                <span class="sr-only">Twitter</span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a target="_blank" href="https://www.linkedin.com">
-                <i class="fab fa-linkedin-in fa-2x" aria-hidden="true"></i>
-                <span class="sr-only">LinkedIn</span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a target="_blank" href="https://www.github.com">
-                <i class="fab fa-github fa-2x" aria-hidden="true"></i>
-                <span class="sr-only">Github</span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a target="_blank" href="https://www.instagram.com">
-                <i class="fab fa-instagram fa-2x" aria-hidden="true"></i>
-                <span class="sr-only">Instagram</span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a target="_blank" href="https://www.youtube.com">
-                <i class="fab fa-youtube fa-2x" aria-hidden="true"></i>
-                <span class="sr-only">YouTube</span>
-              </a>
-            </li>
-          </ul>
+<footer class="container-fluid">
+    <div class="row">
+        <div class="col-md-4">
+            <h5 class="footer-header">About</h5>
+            <p class="inline-block footer-text">This Worldwide Weather App which is mainly created to help people who
+                travel from one place to another not only in the Nederlands but also in the other part of the world,
+                like to visit some different part of he world. Wonserful cities offerings chances to explore as bonus to
+                other part of the World. Our team is
+                passionate about all aspects of visitors comming in and out of the country.</p>
+        </div>
+        <div class="col-sm-4">
+            <h5 class="footer-header">Social Media</h5>
+            <ul class="list-inline social-links">
+                <li class="list-inline-item">
+                    <a target="_blank" href="https://www.facebook.com">
+                        <i class="fab fa-facebook fa-2x" aria-hidden="true"></i>
+                        <span class="sr-only">Facebook</span>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a target="_blank" href="https://www.twitter.com">
+                        <i class="fab fa-twitter fa-2x" aria-hidden="true"></i>
+                        <span class="sr-only">Twitter</span>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a target="_blank" href="https://www.linkedin.com">
+                        <i class="fab fa-linkedin-in fa-2x" aria-hidden="true"></i>
+                        <span class="sr-only">LinkedIn</span>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a target="_blank" href="https://www.github.com">
+                        <i class="fab fa-github fa-2x" aria-hidden="true"></i>
+                        <span class="sr-only">Github</span>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a target="_blank" href="https://www.instagram.com">
+                        <i class="fab fa-instagram fa-2x" aria-hidden="true"></i>
+                        <span class="sr-only">Instagram</span>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a target="_blank" href="https://www.youtube.com">
+                        <i class="fab fa-youtube fa-2x" aria-hidden="true"></i>
+                        <span class="sr-only">YouTube</span>
+                    </a>
+                </li>
+            </ul>
         </div>
         <div class="col-md-4">
-          <h5 class="footer-header">Contact</h5>
-          <p class="inline-block footer-text">In any case of query you can find us on<br>
-          Hiltonsingelstraat 69H2 1020 VP Arnhem<br>
-          +31684958860<br>
-          vken8936@gmail.com<br>
-          </p>
+            <h5 class="footer-header">Contact</h5>
+            <p class="inline-block footer-text">In any case of query you can find us on<br>
+                Hiltonsingelstraat 69H2 1020 VP Arnhem<br>
+                +31684958860<br>
+                vken8936@gmail.com<br>
+            </p>
         </div>
-			</div>
-  </footer>
+    </div>
+</footer>
   <!--End Footer-->
     <script src="https://kit.fontawesome.com/5fa1d9dfaf.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     <script src="./assets/js/main.js"></script>
-   </body>
-  </html>
+</body>
+</html>

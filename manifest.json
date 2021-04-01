@@ -1,0 +1,22 @@
+{
+  "short_name": "Weather",
+  "name": "Weather": "What is the weather forecast?",
+  "icons": [
+    …
+    {
+      "src": "/images/weather-icon.png",
+      "sizes": "196x196",
+      "type": "image/png",
+      "purpose": "any",
+      "theme-color": "rgba(255, 255, 255, 0.3)"
+    },
+    {
+      "src": "path/to/maskable_icon.png",
+      "sizes": "196x196",
+      "type": "image/png",
+      "purpose": "maskable" // <-- New property value `"maskable"`
+    },
+    …
+  ],
+  …
+}
